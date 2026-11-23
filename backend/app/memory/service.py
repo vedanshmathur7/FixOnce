@@ -3,7 +3,7 @@
 - `enabled` is the Meko ON/OFF switch for the demo (requirement A1). OFF means: recall returns
   nothing and nothing is stored. The agents run on the LLM alone.
 - `log` records every Meko call (tool, agent, what went in, what came back). The web page shows it,
-  so judges can see that every piece of context came from a real call (A4, A5).
+  so users can see that every piece of context came from a real call (A4, A5).
 - If Meko is unreachable, reads return nothing and writes are queued, then flushed later.
 """
 from __future__ import annotations
