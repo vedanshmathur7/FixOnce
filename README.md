@@ -7,8 +7,6 @@ time, what fixed it, what made it worse, and offers the safe fix as one tap. Eve
 lesson in [Meko](https://mekodata.ai), so the next one is faster. Switch Meko off and FixOnce goes
 back to guessing: that difference is the product.
 
-Built at hackCBS 9.0 for the Meko challenge (Track A).
-
 ## Problem
 
 Most outages are repeats. The fix exists, but it lives in someone's head or an old chat thread,
@@ -18,7 +16,7 @@ same wrong step gets tried again.
 ## Run it (5 commands)
 
 ```bash
-git clone https://github.com/visheshgupta0404/FixOnce.git
+git clone https://github.com/vedanshmathur7/FixOnce.git
 cd FixOnce
 cp .env.example .env          # add MEKO_API_KEY, MEKO_DATAPACK_ID, GEMINI_API_KEY
 docker compose up --build -d
@@ -54,11 +52,6 @@ The chaos buttons and the shop are a labelled simulation. No personal data is st
 - `shop/`: demo shop simulation that can break three ways
 - `backend/`: FastAPI + four agents (triage, recall, fixer, scribe) + Meko over MCP + Gemini
 - `web/`: the page the on-call engineer uses
-
-## Slides and team
-
-- Slides: _add link_
-- Team: Vedansh Mathur, _teammate_, _teammate_
 
 ## Tests
 
