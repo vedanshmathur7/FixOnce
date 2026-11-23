@@ -4,7 +4,7 @@ Vedansh: ask your Claude Code (connected to Meko) to save and promote each line 
 "[Vedansh] decided: ...". Teammates promote their own decisions the same way as they work.
 
 1. Project name is FixOnce; tagline "Every incident, fixed only once".
-2. Track A of the Meko challenge; theme label Cloud; submit by 10 AM, 1 Nov.
+2. Memory layer is Meko; theme label Cloud.
 3. Repo layout: shop/ (simulation), backend/app (FastAPI, agents, memory), web/ (UI).
 4. backend/app/models.py is the shared contract; change only together.
 5. Safe actions are exactly: pause_batch_job, raise_pool_size, scale_up, rollback_last_deploy, restart_service.
